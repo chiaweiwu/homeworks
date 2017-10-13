@@ -1,5 +1,5 @@
 class LRUCache
- def initialize
+ def initialize(limit)
    @data = []
    @limit = limit
  end
