@@ -1,0 +1,47 @@
+@media (min-width:320px){
+  nav {
+    display: none;
+  }
+
+  nav ul {
+      display: block;
+      width: 100%;
+      text-align: center;
+  }
+
+  nav ul li {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+
+  .display-mobile{
+    text-align: center;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width:700px){
+  nav{
+    display: block;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    float:none;
+    text-align: right;
+  }
+
+  .display-mobile {
+    display: none;
+  }
+
+}
+
+@media (min-width:800px){
+  h1 {
+    font-size: 2em;
+  }
+}

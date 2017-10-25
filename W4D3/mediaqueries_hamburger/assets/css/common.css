@@ -1,0 +1,31 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: 400;
+  font-size:100%;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* COMPONENT CLASSES */
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  /*margin-right: auto;
+  margin-left: auto;*/
+  /* sets it in the middle of its parent */
+}
+
+.clearfix:after {
+  display: table;
+  content:'';
+  clear: both;
+}
